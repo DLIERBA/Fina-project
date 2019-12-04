@@ -55,54 +55,65 @@
 
 #### 九.使用者交互与设计（axure产品原型）
 
-+ 毕业纪念APP首页
-![毕业纪念APP首页](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E9%A6%96%E9%A1%B5.png)
++ 拍照APP首页
+![拍照APP首页]()
 
 + 今昔对比功能
-![今昔对比功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E5%83%8F%E6%8A%A0%E5%9B%BE1.png)
-![今昔对比功能2](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E5%83%8F%E6%8A%A0%E5%9B%BE2.png)
+![今昔对比功能1]()
+![今昔对比功能2]()
 
-+ 人脸搜索功能
-![人脸搜索功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB1.png)
-![人脸搜索功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB2.png)
++ 线上试衣功能
+![线上试衣功能1]()
+![线上试衣功能1]()
 
-+ 寻找附近好友功能
-![寻找附近好友功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E5%9C%B0%E7%90%86%E5%9B%B4%E6%A0%8F1.png)
-![寻找附近好友功能2](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E5%9C%B0%E7%90%86%E5%9B%B4%E6%A0%8F2.png)
++ 根据用户表情自动出现贴纸或特效功能
+![根据用户表情自动出现贴纸或特效功能1]()
+![根据用户表情自动出现贴纸或特效功能2]()
+
++ 根据用户手势自动出现贴纸或特效功能
+![根据用户手势自动出现贴纸或特效功能1]()
+![根据用户手势自动出现贴纸或特效功能2]()
+
+
+
 
 + 我的
-![我的1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%88%91%E7%9A%841.png)
-![我的2](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%88%91%E7%9A%842.png)
-![我的3](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%88%91%E7%9A%843.png)
+![我的1]()
+![我的2]()
+![我的3]()
 
 
 #### 十.产品结构图
 + 产品功能结构图
-![产品功能结构图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+![产品功能结构图]()
 
 + 产品信息结构图
-![产品信息结构图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E4%BA%A7%E5%93%81%E4%BF%A1%E6%81%AF%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+![产品信息结构图]()
 
 + 产品流程图
 
-![产品流程图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E4%BA%A7%E5%93%81%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
+![产品流程图]()
 
 + 产品结构图
-
-![产品结构图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E4%BA%A7%E5%93%81%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+![产品结构图]()
 
 #### 十一.API 的运用 
-1. 百度API——人脸搜索
-+ HTTP方法：POST
-+ 请求URL： https://aip.baidubce.com/rest/2.0/face/v3/search
+1. 百度API——人脸检测
 + API价值主张
-①支持百万级规模的人脸库管理和搜索，检索速度业内领先
-②提供可视化人脸库管理功能，支持人脸组、用户、人脸维度的增、删、改、查操作
-③提供在线的人脸搜索接口、人脸库管理组合接口，可以快速集成，达到百万人脸库毫秒级检索速度，实现黑白名单自定义匹配等功能
-④提供一体机和软件部署包两种私有化方案，支持百万级人脸库精准查找，毫秒级搜索结果响应，适用于安防、监控等场景
+①检测图片中的人脸并标记出人脸坐标，支持同时识别多张人脸
+②准确识别多种人脸属性信息，包括年龄、性别、种族、颜值、表情、情绪、脸型、头部姿态
+③算法世界领先；服务稳定高效；灵活简单易用
+④提供人脸检测与属性分析在线接口，快速检测人脸并返回人脸框位置、五官定位与轮廓关键点信息，并准确识别多种人脸属性
+④基于150关键点识别，对人脸五官及轮廓自动精准定位，可自定义对人脸特定位置进行修饰美颜；同时获取表情、情绪等人脸属性信息，实现特效相机、动态贴纸等互动娱乐功能
++ HTTP方法：POST
++ 请求URL： https://aip.baidubce.com/rest/2.0/face/v3/detect
 
-+ 免费配额
-![免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E8%84%B8%E6%90%9C%E7%B4%A2.png)
++ 人脸检测API免费配额
+![人脸检测API免费配额]()
+
++ 人脸检测API收费标准
+![人脸检测API收费标准]()
+
 
 + 请求代码示例
 
@@ -112,37 +123,102 @@
 import requests
 
 '''
-人脸搜索
+人脸检测与属性分析
 '''
 
-request_url = "https://aip.baidubce.com/rest/2.0/face/v3/search"
+request_url = "https://aip.baidubce.com/rest/2.0/face/v3/detect"
 
-params = "{\"image\":\"027d8308a2ec665acb1bdf63e513bcb9\",\"image_type\":\"FACE_TOKEN\",\"group_id_list\":\"group_repeat,group_233\",\"quality_control\":\"LOW\",\"liveness_control\":\"NORMAL\"}"
+params = "{\"image\":\"027d8308a2ec665acb1bdf63e513bcb9\",\"image_type\":\"FACE_TOKEN\",\"face_field\":\"faceshape,facetype\"}"
 access_token = '[调用鉴权接口获取的token]'
 request_url = request_url + "?access_token=" + access_token
 headers = {'content-type': 'application/json'}
 response = requests.post(request_url, data=params, headers=headers)
 if response:
     print (response.json())
+
 ```
 
 + 返回结果
 
-![返回结果](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C.png)
+![返回结果]()
+![返回结果]()
+![返回结果]()
+![返回结果]()
 
 + 返回示例
 ```
-  {
-    "face_token": "fid",
-    "user_list": [  
-       {
-          "group_id" : "test1",
-          "user_id": "u333333",
-          "user_info": "Test User",
-          "score": 99.3  
-      }
+ {	
+  "face_num": 1,
+  "face_list": [
+        {
+            "face_token": "35235asfas21421fakghktyfdgh68bio",
+            "location": { 
+                "left": 117,
+                "top": 131,
+                "width": 172,
+                "height": 170,
+                "rotation": 4
+            },
+            "face_probability": 1,
+            "angle" :{
+                 "yaw" : -0.34859421849251
+                 "pitch" 1.9135693311691  
+                 "roll" :2.3033397197723  
+            }
+            "landmark": [  
+                {
+                    "x": 161.74819946289,
+                    "y": 163.30244445801
+                },
+                ...
+            ],
+            "landmark72": [ 
+                {
+                    "x": 115.86531066895,
+                    "y": 170.0546875
+                }，
+                ...
+            ],
+            "age": 29.298097610474,
+            "beauty": 55.128883361816,
+            "expression": {
+                "type": "smile",
+                "probability" : 0.5543018579483
+            },
+            "gender": {
+                "type": "male",
+                "probability": 0.99979132413864
+            },
+            "glasses": {
+    			"type": "sun",
+                "probability": 0.99999964237213
+            },
+            "race": {
+                "type": "yellow",
+                "probability": 0.99999976158142
+            },
+            "face_shape": {
+                "type": "triangle",
+                "probability": 0.5543018579483
+            }
+            "quality": {
+                "occlusion": {
+                    "left_eye": 0,
+                    "right_eye": 0,
+                    "nose": 0,
+                    "mouth": 0,
+                    "left_cheek": 0.0064102564938366,
+                    "right_cheek": 0.0057411273010075,
+                    "chin": 0
+                },
+                "blur": 1.1886881756684e-10,
+                "illumination": 141,
+                "completeness": 1
+            }
+        }
     ]
-  }
+}
+
 ``` 
 2. 百度API——人像分割
 + HTTP 方法：POST
@@ -153,9 +229,13 @@ if response:
 ③支持返回分割后的二值图、灰度图、人像前景图，并可通过参数设置，自主设置返回哪些结果图，避免造成带宽浪费
 ④对于输入的一张图片（可正常解码，且长宽比适宜），识别人体的轮廓范围，与背景进行分离，适用于拍照背景替换、照片合成、身体特效等场景。输入正常人像图片，返回分割后的二值结果图、灰度图、透明背景的人像图（png格式）。
 
-+ 免费配额
++ 人像分割API免费配额
+![人像分割API免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2.png)
 
-![免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2.png)
++ 人像分割API收费标准
+![人像分割API收费标准]()
+
+
 
 + 请求代码示例
 ``` 
@@ -193,14 +273,15 @@ if response:
 ```
 
 
-3. 高德API——地理围栏
+3. 百度API——手势识别
 + API价值定位
-开发者根据业务需求合理的在地图上圈定指定区域，创建围栏，定位 SDK 提供根据高德POI，行政区划，自定义圆形，多边形四种方式创建地理围栏，开发者可根据围栏圈定的范围进行精准操作。
-[高德API地理围栏](https://lbs.amap.com/api/webservice/guide/api/geofence_service)
 
-+ API的配额
 
-![免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E9%85%8D%E9%A2%9D.png)
++ 手势识别API的免费配额
+![手势识别API免费配额]()
+
++ 手势识别API的收费标准
+![手势识别API收费标准]()
 
 #### 十二.AI产品概率性 
 + 百度人脸搜索：万级别人脸库首选识别率高达99%以上
