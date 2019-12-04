@@ -105,14 +105,18 @@
 ③算法世界领先；服务稳定高效；灵活简单易用
 ④提供人脸检测与属性分析在线接口，快速检测人脸并返回人脸框位置、五官定位与轮廓关键点信息，并准确识别多种人脸属性
 ④基于150关键点识别，对人脸五官及轮廓自动精准定位，可自定义对人脸特定位置进行修饰美颜；同时获取表情、情绪等人脸属性信息，实现特效相机、动态贴纸等互动娱乐功能
-+ HTTP方法：POST
-+ 请求URL： https://aip.baidubce.com/rest/2.0/face/v3/detect
 
 + 人脸检测API免费配额
 ![人脸检测API免费配额]()
 
 + 人脸检测API收费标准
 ![人脸检测API收费标准]()
+
+[百度API——人脸检测的详细价格](https://ai.baidu.com/docs#/BodyAnalysis-Pricing/top)
+
++ 请求示例：
+ + HTTP方法：POST
+ + 请求URL： https://aip.baidubce.com/rest/2.0/face/v3/detect
 
 
 + 请求代码示例
@@ -221,8 +225,6 @@ if response:
 
 ``` 
 2. 百度API——人像分割
-+ HTTP 方法：POST
-+ 请求URL： https://aip.baidubce.com/rest/2.0/image-classify/v1/body_seg
 + API价值主张
 ①将原始图片中的人像分离出来，选择新的背景图像进行替换、合成
 ②人像分割算法业界领先
@@ -235,7 +237,9 @@ if response:
 + 人像分割API收费标准
 ![人像分割API收费标准]()
 
-
++ 请求示例：
+ + HTTP 方法：POST
+ + 请求URL： https://aip.baidubce.com/rest/2.0/image-classify/v1/body_seg
 
 + 请求代码示例
 ``` 
@@ -274,8 +278,10 @@ if response:
 
 
 3. 百度API——手势识别
-+ API价值定位
-
++ API价值定位：
+①检测图像中的所有手部，识别手势类型，不限手势数量；支持自拍、他人拍摄、各种角度等多样化场景
+②识别24种常见手势，支持单手手势和双手手势，包括拳头、OK、比心、作揖、作别、祈祷、我爱你、点赞、Diss、Rock、竖中指、数字等
+③丰富的手势；领先的算法；稳定的保障
 
 + 手势识别API的免费配额
 ![手势识别API免费配额]()
@@ -283,20 +289,74 @@ if response:
 + 手势识别API的收费标准
 ![手势识别API收费标准]()
 
+
++ 请求示例：
+ + HTTP 方法：POST
+ + 请求URL： https://aip.baidubce.com/rest/2.0/image-classify/v1/gesture
+
++ 请求代码示例
+``` 
+# encoding:utf-8
+
+import requests
+import base64
+
+'''
+手势识别
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/gesture"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+
+``` 
++ 返回示例
+```
+    {
+        "log_id": 4466502370458351471,
+    	"result_num": 2,
+    	"result": [{
+    		"probability": 0.9844077229499817,
+    		"top": 20,
+    		"height": 156,
+    		"classname": "Face",
+    		"width": 116,
+    		"left": 173
+    	},
+    	{
+    		"probability": 0.4679304957389832,
+    		"top": 157,
+    		"height": 106,
+    		"classname": "Heart_2",
+    		"width": 177,
+    		"left": 183
+    	}]
+    }
+
+```
+
+
+
+
+
+
+
 #### 十二.AI产品概率性 
-+ 百度人脸搜索：万级别人脸库首选识别率高达99%以上
++ 百度手势识别：手势识别算法业界领先，识别准确率90%以上
 + 百度人像分割：人像分割算法业界领先，评测IoU 90%以上
 
 
 #### 十三.API功能对比
-1. 百度地图API和高德地图API
-+ 如果不考虑POI数据的话，从对开发者友好角度，从容易上手角度：高德完胜百度。高德的API十分简单易上手，高德一行代码，百度最少要五行。
-+ 百度地图各个子产品各自为战，相当混乱，配置麻烦，问题较多，总而言之就是技术混乱。不过百度有着丰富的数据资源。
-+ 百度的坐标不可逆，用了百度不容易改别的，而高德则可以。
-+ 高德拥有测绘权，地理坐标信息比百度精准
-+ 从中英双语支持上，高德比较友好
-
-2. 人脸识别API
+1. 人脸识别API
 + 国际人脸识别评估集LFW榜， face++ 99.5% 商汤 99.53% 腾讯 99.65% 百度 99.77%，非思丸 99.77% 中科云从 99.5% 道奇智能99.64%，FaceTo 99.4% 宇泛智能 99%这些都是基于国内的
 + 百度人脸识别API，功能强大，简单易用；至少有很多人工智能的大师是在百度工作过，也是国内最早进军人工的企业之一，虽然后来大师都从百度出走，但是人家积累的根基还是很厚的。
 + face++号称是一个提供免费人脸检测、人脸识别、人脸属性分析等服务的云端服务平台，但是它所谓的免费其实就是注册和试用。但价格上应该还是可以接受的
