@@ -107,10 +107,10 @@
 ④基于150关键点识别，对人脸五官及轮廓自动精准定位，可自定义对人脸特定位置进行修饰美颜；同时获取表情、情绪等人脸属性信息，实现特效相机、动态贴纸等互动娱乐功能
 
 + 人脸检测API免费配额
-![人脸检测API免费配额]()
+![人脸检测API免费配额](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8BAPI%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6.png)
 
 + 人脸检测API收费标准
-![人脸检测API收费标准]()
+![人脸检测API收费标准](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E6%94%B6%E8%B4%B9%E6%A0%87%E5%87%86.png)
 
 [百度API——人脸检测的详细价格](https://ai.baidu.com/docs#/BodyAnalysis-Pricing/top)
 
@@ -144,10 +144,10 @@ if response:
 
 + 返回结果
 
-![返回结果]()
-![返回结果]()
-![返回结果]()
-![返回结果]()
+![返回结果](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C1.png)
+![返回结果](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C2.png)
+![返回结果](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C3.png)
+![返回结果](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BA%BA%E8%84%B8%E6%A3%80%E6%B5%8B%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C4.png)
 
 + 返回示例
 ```
@@ -235,7 +235,10 @@ if response:
 ![人像分割API免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2.png)
 
 + 人像分割API收费标准
-![人像分割API收费标准]()
+![人像分割API收费标准](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2%E6%94%B6%E8%B4%B9%E6%A0%87%E5%87%86.png)
+
+[百度API——人像分割的详细价格](https://ai.baidu.com/docs#/BodyAnalysis-Pricing/top)
+
 
 + 请求示例：
  + HTTP 方法：POST
@@ -284,10 +287,12 @@ if response:
 ③丰富的手势；领先的算法；稳定的保障
 
 + 手势识别API的免费配额
-![手势识别API免费配额]()
+![手势识别API免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2.png)
 
 + 手势识别API的收费标准
-![手势识别API收费标准]()
+![手势识别API收费标准](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB%E6%94%B6%E8%B4%B9%E6%A0%87%E5%87%86.png)
+
+[百度API——人脸检测的详细价格](https://ai.baidu.com/docs#/BodyAnalysis-Pricing/top)
 
 
 + 请求示例：
@@ -319,6 +324,11 @@ if response:
     print (response.json())
 
 ``` 
++ 返回参数
+![返回参数](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E6%89%8B%E5%8A%BF%E8%AF%86%E5%88%AB%E8%BF%94%E5%9B%9E%E5%8F%82%E6%95%B0.png)
+
+
+
 + 返回示例
 ```
     {
