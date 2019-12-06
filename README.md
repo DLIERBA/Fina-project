@@ -56,31 +56,34 @@
 #### 九.使用者交互与设计（axure产品原型）
 
 + 拍照APP首页
-![拍照APP首页]()
+![拍照APP首页](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E9%A6%96%E9%A1%B5.png)
 
 + 今昔对比功能
-![今昔对比功能1]()
-![今昔对比功能2]()
+![今昔对比功能1](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BB%8A%E6%98%94%E5%AF%B9%E6%AF%941.png)
+![今昔对比功能2](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E4%BB%8A%E6%98%94%E5%AF%B9%E6%AF%942.png)
 
 + 线上试衣功能
-![线上试衣功能1]()
-![线上试衣功能1]()
+![线上试衣功能1](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E7%BA%BF%E4%B8%8A%E8%AF%95%E8%A1%A31.png)
+![线上试衣功能2](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E7%BA%BF%E4%B8%8A%E8%AF%95%E8%A1%A32.png)
+![线上试衣功能3](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E7%BA%BF%E4%B8%8A%E8%AF%95%E8%A1%A33.png)
+
+
 
 + 根据用户表情自动出现贴纸或特效功能
-![根据用户表情自动出现贴纸或特效功能1]()
-![根据用户表情自动出现贴纸或特效功能2]()
+![根据用户表情自动出现贴纸或特效功能1](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/AI%E8%A1%A8%E6%83%85%E6%8B%8D%E7%85%A71.png)
+![根据用户表情自动出现贴纸或特效功能2](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/AI%E8%A1%A8%E6%83%85%E6%8B%8D%E7%85%A72.png)
 
 + 根据用户手势自动出现贴纸或特效功能
-![根据用户手势自动出现贴纸或特效功能1]()
-![根据用户手势自动出现贴纸或特效功能2]()
+![根据用户手势自动出现贴纸或特效功能1](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/AI%E6%89%8B%E5%8A%BF%E6%8B%8D%E7%85%A7.png)
+![根据用户手势自动出现贴纸或特效功能2](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/AI%E6%89%8B%E5%8A%BF%E6%8B%8D%E7%85%A72.png)
 
 
 
 
 + 我的
-![我的1]()
-![我的2]()
-![我的3]()
+![我的1](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E6%88%91-%E6%B3%A8%E5%86%8C.png)
+![我的2](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E6%88%91-%E7%99%BB%E5%BD%95.png)
+![我的3](https://raw.githubusercontent.com/DLIERBA/Fina-project/master/images/%E7%9B%B8%E5%86%8C-%E5%AE%A2%E6%9C%8D.png)
 
 
 #### 十.产品结构图
